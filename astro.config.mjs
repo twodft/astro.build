@@ -6,6 +6,7 @@ import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/serverless";
 import webVitals from "@astrojs/web-vitals";
 import astroExpressiveCode from "astro-expressive-code";
+import icon from "astro-icon";
 import { defineConfig } from "astro/config";
 import houston from "./houston.theme.json";
 
@@ -37,6 +38,7 @@ export default defineConfig({
 		sitemap(),
 		db(),
 		webVitals(),
+		icon()
 	],
 	image: {
 		domains: ["v1.screenshot.11ty.dev", "storage.googleapis.com"],
