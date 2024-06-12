@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 import IntroPoint from "../IntroPoint.astro";
 ---
 
@@ -11,9 +11,9 @@ import IntroPoint from "../IntroPoint.astro";
     </h2>
   </div>
 
-  <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3"> 
+  <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
     <IntroPoint title="Server-First">
-      <div slot="icon" class="size-fit rounded-full p-0.5 lg:p-[3px] from-astro-blue/25 to-astro-green/25 bg-blue-green-gradient"> 
+      <div slot="icon" class="size-fit rounded-full p-0.5 lg:p-[3px] from-astro-blue/25 to-astro-green/25 bg-blue-green-gradient">
         <div class='size-12 lg:size-14 landing-section bg-black text-white rounded-full'>
           <div class="size-full landing-section bg-gradient-to-br rounded-full">
             <Icon name="ri:server-line" class="size-5 lg:size-7" />
@@ -26,7 +26,7 @@ import IntroPoint from "../IntroPoint.astro";
     </IntroPoint>
 
     <IntroPoint title="Content-Driven">
-      <div slot="icon" class="size-fit rounded-full p-0.5 lg:p-[3px] bg-red-pink-gradient"> 
+      <div slot="icon" class="size-fit rounded-full p-0.5 lg:p-[3px] bg-red-pink-gradient">
         <div class='size-12 lg:size-14 landing-section bg-black text-white rounded-full'>
           <div class="size-full landing-section bg-gradient-to-br from-astro-red/20 to-astro-pink/20  rounded-full">
             <Icon name="ri:file-list-3-line" class="size-5 lg:size-7" />
@@ -41,7 +41,7 @@ import IntroPoint from "../IntroPoint.astro";
 
 
     <IntroPoint title="Customizable" gradient="bg-orange-yellow-gradient">
-      <div slot="icon" class="size-fit rounded-full p-0.5 lg:p-[3px] bg-orange-yellow-gradient"> 
+      <div slot="icon" class="size-fit rounded-full p-0.5 lg:p-[3px] bg-orange-yellow-gradient">
         <div class='size-12 lg:size-14 landing-section bg-black text-white rounded-full'>
           <div class="size-full landing-section bg-gradient-to-br from-astro-orange/15 to-astro-yellow/15 rounded-full">
             <Icon name="ri:dashboard-line" class="size-5 lg:size-7" />
